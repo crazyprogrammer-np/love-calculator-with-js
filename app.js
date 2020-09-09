@@ -27,6 +27,8 @@ function loveCalculator() {
 
         resultPercent.innerHTML = result + "<span style='font-size:40px;'>%</span>"
 
+        firstPerson.remove();
+        secondPerson.remove();
         calcBtn.remove();
 
         progressBarDiv.style.border = "1px solid grey"
