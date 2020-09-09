@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Calculator</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--External Stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <!--Google fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Audiowide&family=B612+Mono&family=Nosifer&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Audiowide&family=B612+Mono&family=Days+One&family=Nosifer&family=Pacifico&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="container-body my-5">
+      <h1 class="text-center my-4 text-danger program-title">Love Calculator</h1>
+      <p id="author"></p>
+      <hr>
+      <div class="input">
+        <input id="firstPerson" type="text" placeholder="enter your name" autocomplete="off">
+        <input id="secondPerson" type="text" placeholder="enter your partner name" autocomplete="off">
+      </div>
+      <div class="calculate my-4">
+        <button id="calcBtn" class="btn btn-danger">Calculate</button>
+      </div>
+      <!--Results-->
+      <div class="result my-5">
+        <div>
+          <h1 id="yourName" class="text-primary"></h1>
+          <h1 id="partnerName" class="text-primary"></h1>
+        </div>
+        <h1 id="resultPercent" class="text-secondary text-center"></h1>
+      </div>
+      <div class="progress-div">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
